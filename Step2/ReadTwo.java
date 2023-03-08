@@ -9,7 +9,7 @@ public class ReadTwo
     public static void main(String[] args)
     {
         try {
-            Scanner fileIn = new Scanner(new File("input.txt"));
+            Scanner fileIn = new Scanner(new File("/Users/fatima/Projects/FileIOJava/Step2"));
 
             while (fileIn.hasNext()) 
             {
@@ -25,7 +25,7 @@ public class ReadTwo
             }
         }
         catch (IOException e) {
-            System.out.println("File not found");
+                System.out.println("File not found");
         }
     }
 }
